@@ -1,0 +1,624 @@
+@media (max-width: 395px) {
+  body {
+    font-family: "Lato", sans-serif;
+  }
+  
+  h2 {
+    font-size: 26px;
+    font-weight: 400;
+    margin: 0 10px 10px 10px;
+    text-align: center;
+  }
+  
+  h3 {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  p {
+    line-height: 1.5em;
+    margin: 0;
+    text-align: left;
+  }
+  
+  ul {
+    text-align: left;
+  }
+  
+  section {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  section.alternate-backgroundone {
+    background-color: #00a699;
+    color: #fff;
+  }
+
+  section.alternate-backgroundtwo {
+    background-color: #00a699;
+    color: #fff;
+  }
+  
+  section#about img {
+    margin-bottom: 20px;
+  }
+  
+  .image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+  
+  .image-container h3 {
+    width: 100%;
+    text-align: left;
+  }
+  
+  .image-container img {
+    width: 100%;
+    max-width: 470px; /* Adjust the max-width as per your preference */
+    height: auto; /* Maintain aspect ratio */
+    margin: 10px;
+  }
+  
+  section#host img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* ---  Groups & Items --- */
+  
+  .group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .item {
+    flex: 1;
+    margin: 10px auto; /* Center the item horizontally */
+  }
+  
+  .item img {
+    width: 100%;
+    max-width: 470px; /* Adjust the max-width as per your preference */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .item-double {
+    flex: 2;
+  }
+  
+  /* -------  Navigation ------- */
+  
+   header {
+    background-color: #ff385c;
+    padding: 20px 20px 0 20px;
+    text-align: center;
+  }
+  
+  .logo {
+    display: flex;
+    font-family: "Pangolin", cursive;
+    font-size: 55px;
+    color: #fff;
+  } 
+  
+  header nav ul li {
+    list-style-type: none;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 20px 0 0;
+  }
+  
+  header nav ul li a:hover {
+    color: #bdbdbd;
+    text-decoration: none;
+  }
+  
+  header nav {
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  /* -------  Search Form ------- */
+  form {
+    border: 2px solid #ff385c;
+    padding: 10px;
+  }
+  
+  form label {
+    font-weight: bold;
+  }
+  
+  form select,
+  form input {
+    margin-bottom: 20px;
+    width: 180px;
+  }
+  
+  form button {
+    background-color: #ff385c;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    padding: 15px;
+    width: 100%;
+  }
+  
+  /* -------  Footer ------- */
+  
+  footer {
+    background-color: #ff385c;
+  }
+  
+  footer p {
+    color: #fff;
+    text-align: center;
+    padding: 20px; }
+  
+}
+
+
+/* iphone XR screen 414px, Samsung Galaxy S20 ultra 412px */
+@media (min-width: 395px)  {
+body {
+  font-family: "Lato", sans-serif;
+}
+
+h2 {
+  font-size: 26px;
+  font-weight: 400;
+  margin: 0 10px 10px 10px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 500;
+  text-align: left;
+  font-weight: bold;
+}
+
+p {
+  line-height: 1.5em;
+  margin: 0;
+  text-align: left;
+}
+
+ul {
+  text-align: left;
+}
+
+section {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+section.alternate-backgroundone {
+  background-color: #00a699;
+  color: #fff;
+}
+
+section.alternate-backgroundtwo {
+  background-color: #00a699;
+  color: #fff;
+}
+
+section#about img {
+  margin-bottom: 20px;
+}
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.image-container h3 {
+  width: 100%;
+  text-align: left;
+}
+
+.image-container img {
+  width: 100%;
+  max-width: 470px; /* Adjust the max-width as per your preference */
+  height: auto; /* Maintain aspect ratio */
+  margin: 10px;
+}
+
+section#host img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ---  Groups & Items --- */
+
+.group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item {
+  flex: 1;
+  margin: 10px auto; /* Center the item horizontally */
+}
+
+.item img {
+  width: 100%;
+  max-width: 470px; /* Adjust the max-width as per your preference */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.item-double {
+  flex: 2;
+}
+
+/* -------  Navigation ------- */
+
+ header {
+  background-color: #ff385c;
+  padding: 20px 20px 0 20px;
+  text-align: center;
+}
+
+.logo {
+  display: flex;
+  font-family: "Pangolin", cursive;
+  font-size: 65px;
+  color: #fff;
+} 
+
+header nav ul li {
+  list-style-type: none;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 20px 0 0;
+}
+
+header nav ul li a:hover {
+  color: #bdbdbd;
+  text-decoration: none;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+/* -------  Search Form ------- */
+form {
+  border: 2px solid #ff385c;
+  padding: 10px;
+}
+
+form label {
+  font-weight: bold;
+}
+
+form select,
+form input {
+  margin-bottom: 20px;
+  width: 180px;
+}
+
+form button {
+  background-color: #ff385c;
+  border: none;
+  color: #fff;
+  font-size: 24px;
+  padding: 15px;
+  width: 100%;
+}
+
+/* -------  Footer ------- */
+
+footer {
+  background-color: #ff385c;
+}
+
+footer p {
+  color: #fff;
+  text-align: center;
+  padding: 20px; }
+}
+
+/* screens bigger than 480px */
+
+
+
+
+
+
+  
+
+@media (min-width: 480px) {
+    body {
+      width: 100%;
+      font-family: "Lato", sans-serif;
+    }
+    
+    h2 {
+      font-size: 26px;
+      font-weight: 400;
+      margin: 0 10px 10px 10px;
+      text-align: center;
+    }
+    
+    h3 {
+      font-size: 18px;
+      font-weight: 500;
+      text-align: left;
+      font-weight: bold;
+    }
+    
+    p {
+      line-height: 1.5em;
+      margin: 0;
+      text-align: left;
+      font-size: 16px;
+    }
+    
+    ul {
+      text-align: left;
+    }
+    
+    section {
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    
+    section.alternate-backgroundone {
+      display: flex;
+      flex-direction: row;
+      background-color: #00a699;
+      color: #fff;
+    }
+
+    section.alternate-backgroundtwo {
+      display: flex;
+      flex-direction: row;
+      background-color: #00a699;
+      color: #fff;
+    }
+    
+    section#about img {
+      margin-bottom: 20px;
+    }
+    
+    .image-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
+    
+    .image-container h3 {
+      width: 100%;
+      text-align: left;
+    }
+    
+    .image-container img {
+      width: 100%;
+      max-width: 470px; /* Adjust the max-width as per your preference */
+      height: auto; /* Maintain aspect ratio */
+      margin: 10px;
+    }
+    
+    section#host img {
+      max-width: 50%;
+      height: auto;
+    }
+
+    /* ...existing CSS... */
+
+.content-container {
+  padding-top: 0px;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.content-container-about {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+/* ...existing CSS... */
+
+    
+/* ---  Groups & Items --- */
+
+
+#about {
+  padding: 18px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-container {
+  margin-bottom: 20px;
+}
+
+.content-container {
+  padding-top: 68px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+
+.group {
+  padding-left: 10px;
+  width: 123%;
+  display: flex;
+  flex-direction: row; /* Change flex-direction to row */
+  align-items: flex-start; /* Align items to the top */
+  justify-content: space-between; /* Add space between items */
+}
+
+.item {
+  display: flex;
+  flex: 1;
+  margin: 10px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: flex-start;
+}
+
+.item img {
+  width: 100%; /* Adjust the width as per your preference */
+  max-width: 470px; /* Adjust the max-width as per your preference */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.item-double {
+  flex: 2; /* Increase the flex value to make it twice as wide */
+  display: flex; /* Add display flex to allow for vertical alignment */
+  align-items: center; /* Vertically center the content */
+}
+
+.item-double p {
+  width: 100%; /* Reset width to 100% */
+  text-align: left; /* Align text to the left */
+  margin-left: 10px; /* Add margin to create space between image and paragraph */
+}
+
+
+
+
+    
+    /* -------  Navigation ------- */
+  
+    header {
+      background-color: #ff385c;
+      padding: 10px;
+      display: flex;
+      justify-content: space-between; /* Space the logo and navigation links apart */
+      align-items: center; /* Vertically center the logo and navigation links */
+    }
+    
+    .logo {
+      font-family: "Pangolin", cursive;
+      font-size: 50px;
+      color: #fff;
+      margin-right: auto; /* Push the logo to the left */
+    }
+    
+    nav ul {
+      list-style: none;
+      display: flex;
+    }
+    
+    nav li {
+      margin: 0 10px;
+    }
+    
+    nav li:first-child {
+      margin-right: 0; /* Remove right margin for the first navigation item */
+    }
+    
+    
+    /* -------  Search Form ------- */
+
+    .form {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      width: 100%;
+      align-items: center; /* Align items vertically in the middle */
+    }
+    
+    .form-group {
+      flex: 1;
+      margin-right: 10px; /* Adjust the margin as needed */
+    }
+    
+    .form-group:last-child {
+      margin-right: 0;
+    }
+    
+    .form-group label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+    
+    .form-group input,
+    .form-group select {
+      width: 100%; /* Change width to 100% to occupy full width */
+      box-sizing: border-box; /* Add box-sizing to include padding and border in width */
+      padding: 8px; /* Adjust the padding as needed */
+    }
+    
+    .form-group button {
+      margin-left: 10px; /* Add margin to separate the button from form fields */
+    }
+    
+    form button {
+      background-color: #ff385c;
+      border: none;
+      color: #fff;
+      font-size: 24px;
+      padding: 15px;
+      width: auto; /* Remove fixed width to allow button to shrink */
+    }
+      
+    /* -------  Footer ------- */
+    
+    footer {
+      background-color: #ff385c;
+    }
+    
+    footer p {
+      color: #fff;
+      text-align: center;
+      padding: 20px; }
+    }
